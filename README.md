@@ -1,4 +1,8 @@
-# 🔐 Privacy Scorecard Chrome Extension
+<p align="center">
+  <img src="logo.jpg" width="130" />
+</p>
+
+<h1 align="center">🔐 Privacy Scorecard Chrome Extension</h1>
 
 A real-time web privacy analysis tool that evaluates:
 - HTTPS security
