@@ -21,6 +21,6 @@ A real-time web privacy analysis tool that evaluates:
 6. Select the project folder
 
 ## 👩‍💻 Developed by Coomunity college Of Qatar Students
-Shaikha Jamal Almansouri
-Sabha Mubarak Bujaloof
+Shaikha Jamal Almansouri, 
+Sabha Mubarak Bujaloof, 
 Alshaymaa Saleh Mathala 
