@@ -1,0 +1,12 @@
+SVG icons have been generated as placeholders.
+
+Chrome extensions require PNG icons. To convert:
+1. Open each SVG in a browser
+2. Take a screenshot at the correct size
+3. Save as icon16.png, icon48.png, icon128.png
+
+Or use a tool like Inkscape:
+  inkscape icon128.svg --export-type=png --export-filename=icon128.png -w 128 -h 128
+
+For development/testing, you can also use the SVG files directly by updating
+manifest.json to reference .svg instead of .png files (supported in Chrome 112+).

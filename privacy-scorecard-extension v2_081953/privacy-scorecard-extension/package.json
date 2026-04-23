@@ -1,0 +1,11 @@
+{
+  "name": "privacy-scorecard-extension",
+  "version": "1.0.0",
+  "description": "Privacy Scorecard Chrome Extension for Real-Time Web Security and Privacy Assessment",
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}

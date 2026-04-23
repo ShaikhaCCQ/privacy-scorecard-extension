@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Scorecard",
+  "version": "1.0.0",
+  "description": "Real-time web security and privacy assessment using machine learning. Evaluates trackers, cookies, HTTPS, fingerprinting and more.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "cookies",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content-script.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/alert-badge.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "assets/icon16.svg",
+      "48": "assets/icon48.svg",
+      "128": "assets/icon128.svg"
+    }
+  },
+  "icons": {
+    "16": "assets/icon16.svg",
+    "48": "assets/icon48.svg",
+    "128": "assets/icon128.svg"
+  }
+}

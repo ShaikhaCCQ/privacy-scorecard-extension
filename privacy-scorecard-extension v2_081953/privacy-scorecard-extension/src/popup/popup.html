@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Scorecard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Privacy Scorecard</h1>
+      <p id="site-domain" class="domain">Loading...</p>
+    </div>
+
+    <!-- Score Display -->
+    <div class="score-section">
+      <div class="score-ring" id="score-ring">
+        <svg viewBox="0 0 120 120">
+          <circle class="score-bg" cx="60" cy="60" r="52" />
+          <circle class="score-fill" id="score-circle" cx="60" cy="60" r="52" />
+        </svg>
+        <div class="score-text">
+        <span class="score-value" id="score-value">--</span>
+        <span class="score-label">/ 100</span>
+        <span class="score-grade" id="score-grade">--</span>
+        </div>
+      </div>
+      <div class="risk-badge" id="risk-badge">Analyzing...</div>
+    </div>
+
+    <!-- Score Breakdown -->
+    <div class="breakdown-section">
+      <h2>Score Breakdown</h2>
+      <div id="breakdown-list" class="breakdown-list">
+        <div class="loading-placeholder">Collecting data...</div>
+      </div>
+    </div>
+
+    <!-- ML Analysis -->
+    <div class="ml-section">
+      <h2>ML Analysis</h2>
+      <div id="ml-details" class="ml-details">
+        <div class="loading-placeholder">Running analysis...</div>
+      </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="recommendations-section">
+      <h2>Recommendations</h2>
+      <div id="recommendations-list" class="recommendations-list">
+        <div class="loading-placeholder">Generating recommendations...</div>
+      </div>
+    </div>
+
+    <!-- Tracker Details -->
+    <div class="trackers-section" id="trackers-section" style="display: none;">
+      <h2>Detected Trackers</h2>
+      <ul id="tracker-list" class="tracker-list"></ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>All analysis is performed locally. No data is transmitted.</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

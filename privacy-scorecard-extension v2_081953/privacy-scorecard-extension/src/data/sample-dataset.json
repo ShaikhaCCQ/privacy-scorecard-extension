@@ -1,0 +1,26 @@
+{
+  "description": "Sample privacy dataset derived from open-source resources (Open Cookie Database, EasyList, fingerprinting studies). Used for ML model training and validation.",
+  "features": ["trackerCount", "thirdPartyCookies", "isHttps", "mixedContent", "thirdPartyRatio", "fingerprintingDetected", "fingerprintingApiCount", "permissionsCount"],
+  "data": [
+    { "label": "privacy-focused-blog", "trackerCount": 0, "thirdPartyCookies": 0, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.05, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 0 },
+    { "label": "static-documentation-site", "trackerCount": 0, "thirdPartyCookies": 0, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.02, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 0 },
+    { "label": "personal-portfolio", "trackerCount": 1, "thirdPartyCookies": 1, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.1, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 0 },
+    { "label": "small-business-site", "trackerCount": 2, "thirdPartyCookies": 2, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.15, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 0 },
+    { "label": "tech-blog-analytics", "trackerCount": 3, "thirdPartyCookies": 3, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.2, "fingerprintingDetected": 0, "fingerprintingApiCount": 1, "permissionsCount": 0 },
+    { "label": "news-site-light", "trackerCount": 5, "thirdPartyCookies": 4, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.3, "fingerprintingDetected": 1, "fingerprintingApiCount": 2, "permissionsCount": 1 },
+    { "label": "ecommerce-store", "trackerCount": 7, "thirdPartyCookies": 6, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.35, "fingerprintingDetected": 1, "fingerprintingApiCount": 3, "permissionsCount": 1 },
+    { "label": "social-media-platform", "trackerCount": 10, "thirdPartyCookies": 8, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.4, "fingerprintingDetected": 1, "fingerprintingApiCount": 4, "permissionsCount": 2 },
+    { "label": "major-news-outlet", "trackerCount": 15, "thirdPartyCookies": 12, "isHttps": 1, "mixedContent": 1, "thirdPartyRatio": 0.55, "fingerprintingDetected": 1, "fingerprintingApiCount": 5, "permissionsCount": 2 },
+    { "label": "free-streaming-site", "trackerCount": 20, "thirdPartyCookies": 15, "isHttps": 1, "mixedContent": 1, "thirdPartyRatio": 0.6, "fingerprintingDetected": 1, "fingerprintingApiCount": 6, "permissionsCount": 3 },
+    { "label": "ad-heavy-forum", "trackerCount": 25, "thirdPartyCookies": 18, "isHttps": 0, "mixedContent": 0, "thirdPartyRatio": 0.7, "fingerprintingDetected": 1, "fingerprintingApiCount": 7, "permissionsCount": 3 },
+    { "label": "suspicious-download-site", "trackerCount": 30, "thirdPartyCookies": 20, "isHttps": 0, "mixedContent": 0, "thirdPartyRatio": 0.8, "fingerprintingDetected": 1, "fingerprintingApiCount": 8, "permissionsCount": 4 },
+    { "label": "government-portal", "trackerCount": 1, "thirdPartyCookies": 0, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.05, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 1 },
+    { "label": "university-website", "trackerCount": 3, "thirdPartyCookies": 2, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.18, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 0 },
+    { "label": "banking-app", "trackerCount": 2, "thirdPartyCookies": 0, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.08, "fingerprintingDetected": 1, "fingerprintingApiCount": 2, "permissionsCount": 1 },
+    { "label": "webmail-service", "trackerCount": 4, "thirdPartyCookies": 3, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.22, "fingerprintingDetected": 1, "fingerprintingApiCount": 2, "permissionsCount": 2 },
+    { "label": "legacy-http-blog", "trackerCount": 1, "thirdPartyCookies": 0, "isHttps": 0, "mixedContent": 0, "thirdPartyRatio": 0.1, "fingerprintingDetected": 0, "fingerprintingApiCount": 0, "permissionsCount": 0 },
+    { "label": "gaming-platform", "trackerCount": 8, "thirdPartyCookies": 7, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.38, "fingerprintingDetected": 1, "fingerprintingApiCount": 3, "permissionsCount": 2 },
+    { "label": "recipe-blog-ads", "trackerCount": 12, "thirdPartyCookies": 10, "isHttps": 1, "mixedContent": 0, "thirdPartyRatio": 0.5, "fingerprintingDetected": 1, "fingerprintingApiCount": 4, "permissionsCount": 1 },
+    { "label": "file-sharing-site", "trackerCount": 18, "thirdPartyCookies": 14, "isHttps": 0, "mixedContent": 0, "thirdPartyRatio": 0.65, "fingerprintingDetected": 1, "fingerprintingApiCount": 5, "permissionsCount": 3 }
+  ]
+}
