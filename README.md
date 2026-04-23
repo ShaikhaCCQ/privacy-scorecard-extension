@@ -25,7 +25,7 @@ A real-time web privacy analysis tool that evaluates:
 ## 📥 Installation Guide
 [Download Installation Guide](installation_guide.pdf)
 
-## 👩‍💻 Developed by Coomunity college Of Qatar Students
+## 👩‍💻 Developed by the students of Community College Of Qatar 
 Shaikha Jamal Almansouri, 
 Sabha Mubarak Bujaloof, 
 Alshaymaa Saleh Mathala 
