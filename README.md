@@ -20,6 +20,12 @@ A real-time web privacy analysis tool that evaluates:
 5. Click "Load unpacked"
 6. Select the project folder
 
+## 📸 Extension Preview
+![Privacy Score](popup.png)
+
+## 📥 Installation Guide
+[Download Installation Guide](installation_guide.pdf)
+
 ## 👩‍💻 Developed by Coomunity college Of Qatar Students
 Shaikha Jamal Almansouri, 
 Sabha Mubarak Bujaloof, 
