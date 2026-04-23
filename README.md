@@ -1,4 +1,3 @@
-# privacy-scorecard-extension
 # 🔐 Privacy Scorecard Chrome Extension
 
 A real-time web privacy analysis tool that evaluates:
